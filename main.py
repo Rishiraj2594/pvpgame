@@ -11,7 +11,6 @@ screen = Window()
 def on_draw():
    screen.clear()
    Circle(p1.position[0], p1.position[1], 1, color=(255, 255, 255)).draw()
-   Rectangle(0, 0, 100, 100, (255, 0, 0)).draw(
-   )
-
+   Rectangle(0, 0, 100, 100, (255, 0, 0)).draw()
+   
 run()
